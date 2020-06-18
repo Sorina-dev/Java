@@ -4,14 +4,14 @@ public class WhileVSDoWhile {
 public static void main(String[] args) {
 	//print Hello 3 times
 	
-	int x = 11;
+	int x = 1;
 	while(x<=3) {
 		System.out.println("Hello");
 		x++;
 	}
 	System.out.println("----------Do while loop---------------------");
 	
-	int y = 11;
+	int y = 1;
 	do {
 		System.out.println("Hello");
 		y++;

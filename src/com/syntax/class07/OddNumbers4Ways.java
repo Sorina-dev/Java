@@ -1,6 +1,6 @@
 package com.syntax.class07;
 
-public class TaskProf1 {
+public class OddNumbers4Ways {
 public static void main(String[] args) {
 	//how to print odds numbers from 1 to 20
 	//1,3,5,7,9,11,13,15,17,19

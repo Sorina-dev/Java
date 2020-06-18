@@ -1,6 +1,6 @@
 package com.syntax.class07;
 
-public class Task1 {
+public class OddNumbers {
 public static void main(String[] args) {
 	// print from 1-50
 	int x = 50;

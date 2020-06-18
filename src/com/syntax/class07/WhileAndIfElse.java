@@ -1,6 +1,6 @@
 package com.syntax.class07;
 
-public class Task2 {
+public class WhileAndIfElse {
 
 	public static void main(String[] args) {
 //		Create a boolean variable workDay and assign true create int variable day and assign it to 1
