@@ -1,0 +1,95 @@
+Java Class 1
+class vs Class
+
+Eclipse - IDE --> integrated developement environment --> helps us tp write and execute JAVA code
+
+In Eclipse 3 main windows:
+1. Project Explore --> all projects and hierarchy
+2. Console --> output of the program
+
+Below words are not same for java
+javabasics
+JavaBasics
+
+Class in Java is an actual program that have .java extension.
+Any executable code we must place inside main method
+
+public static void main (String[] args) {
+		
+}
+
+Inside the main method we will be writing statements. Every statement in Java MUST end with;
+
+In our program we can add comments
+// single line comment
+
+/* multiline comment
+*/
+
+int vs println
+print --> simply just prints
+println --> prints and creates new line after
+
+
+Keyword in Java have a special meaning! (class, static, public, void etc)
+
+Identifiers in JAVA (giving names to your project, class, variables, methods)
+RULE:
+1. We cannot use keywords as identifiers
+2. we cannot have space for identifiers
+3. we cannot use any special characters except _ and $
+4. identifier cannot start with number
+
+Preferences:
+CamelCasing:
+
+When we want to name Class --> starts with Upper case and follows camel casing
+
+When we want to create variables and method --> start with lower case and follow camel casing
+
+DataTypes in Java
+Primitives:
+Non- primitives:
+
+Primitives datatypes:8
+Numeric values:
+	whole numbers: byte, short, int, long
+	decimal number (12.99): float, double
+non numeric values: 
+	to store single character: char
+	to store boolean values (yes or no): true, false
+
+To store these data we need a container --> variable
+To store value inside the variables:
+1 ) specify type
+
+byte
+
+2) give a name to the variable/container
+
+byte variableName
+
+3) assign / place the value inside the container
+
+byte name=10;
+--------------------------------------------------------------------------
+main/ ctrl +space choose enter for main method
+camelcase = each word starts with Upper case
+-to format your code in eclipse
+ctrl +shift +f 
+mac = cmd +shift =f
+ debug
+2click on the row want to debug/ for 1st time right click on open window to debug as java app/ variables check on Window/show view/ variables/
+terminate on the sqaure red button
+
+console to open
+from windows (up) / show view/ console
+
+// multi
+ctrl + A select then ctrl/
+
+System.err.println("kfheuhf"); -->will print  red color
+Syso(\n -->moves to the new line----------------);
+
+
+
