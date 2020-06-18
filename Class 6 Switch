@@ -1,0 +1,46 @@
+----------------------------------------------------------------
+Recap
+----------------------------------------------------------------
+Logical Operators
+
+Why do we need them?
+To test 2 or more conditions (and to combine them)
+AND && --> both conditions should be true
+OR || --> at least one of the conditions should be true
+NOT ! --> reverse the condition
+----------------------------------------------------------------
+When compiler gives you an error saying that the variable must be initialized:
+Compiler will assign a default value:
+
+default value for String is null;
+default value for int is 0;
+default value for double is 0.0;
+default value for boolean is false;
+default value for char is 0; //Please don't care too much about this!!!
+ASCHII representation regarsing char(not important)
+----------------------------------------------------------------
+Class 6
+----------------------------------------------------------------
+Switch Case
+
+Switch case is another conditional statement
+It also test multiple values similar to else if
+
+Benefits of Switch case vs Else if:
+1. Performance of switch case is faster compared to else if
+2. Using switch case we can make the code cleaner and more readable
+
+Limitations:
+	1. No relational (>, >=, <, <=) or Logical Operators (&&, ||, !) can be used
+	2. Switch case works only with byte, short, char, int and String
+	3. In switch we cannot have duplicate cases
+	4. In switch case we must use break
+
+switch  ctrl +space /enter
+--------------------------------------------------------------------
+*the order doesn't matter
+*wihtout break --> the case is not closed it writes the last until break is
+*after default can with or without break
+no || or &&, no !no ignore cases
+cannot use || but can have kind of OR
+*switch(month.toLowerCase())     //December-->december, we have to write teh strings with lowercase
