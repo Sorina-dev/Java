@@ -1,0 +1,81 @@
+----------------------------------------------------------------
+Recap
+----------------------------------------------------------------
+boolean a = true;
+boolean b = false;
+boolean c = false;
+
+if (a){
+	outer if code...
+
+	if (b) {
+		inner if code...
+	} else if (c) {
+		inner else if code...
+	} else {
+		//To execute this part of code!!!
+		inner else code...
+	}
+
+} else {
+	outer else code...
+}
+----------------------------------------------------------------
+Scanner Class - takes input from the user/console
+
+int a = 10;
+Scanner myScanner = new Scanner(System.in);
+
+String line = myScanner.nextLine();
+String word = myScanner.next();
+
+int num = myScanner.nextInt();
+double d = myScanner.nextDouble();
+boolean b = myScanner.nextBoolean();
+char myChar = myScanner.next().charAt(0);
+----------------------------------------------------------------
+Class 5
+----------------------------------------------------------------
+Logical Operators
+AND - OR - NOT
+
+AND (&&)
+if (true && true) --> true
+if (true && false) --> false
+if (false && true) --> false
+if (false && false) --> false
+
+OR (||)
+if (true || true) --> true
+if (true || false) --> true
+if (false || true) --> true
+if (false || false) --> false
+
+NOT (!) - Reverse/Opposite the condition (boolean value)
+
+1. To assign the reverse of a boolean
+boolean b1 = !true;
+System.out.println(b1); --> false
+
+boolean b2 = !false;
+System.out.println(b2); --> true
+
+2. To evaluate/calculate the reverse/opposite of a boolean
+boolean cold = true;
+
+if (!cold){
+	System.out.println(1);
+} else {
+	System.out.println(2);
+}
+
+3. Parenthesis
+First we perform || (or operation) --> because it is inside () and then result of the operation 
+we are reversing using ! (Not operator)
+
+// 3rd way, easiest
+if (!(day == 1 || day == 5)) {
+    System.out.println("We have a class");
+} else {
+    System.out.println("We are sleeping");
+}

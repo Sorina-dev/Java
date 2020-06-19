@@ -1,0 +1,37 @@
+----------------------------------------------------------------
+Recap
+----------------------------------------------------------------
+Loops - used to execute a block of code multiple times
+
+while
+do while
+for
+enhanced for loop
+
+while & do while are loops that are chosen when we don't know 
+how many times we need to repeat the block of code.
+
+while vs do while
+while - first checks the condition then executes the blocks of code
+do while - first executes the blocks of code then checks the condition
+----------------------------------------------------------------
+for loop - when we know in advance how many times we want to repeat the block of code
+
+for (initialization; condition; increment/decrement){
+	block of code;
+}
+
+for (starting point; ending point; increment/decrement){
+	block of code;
+}
+----------------------------------------------------------------
+Class 8
+----------------------------------------------------------------
+break  - keyword can be used inside any loop
+it break the loop (as soon as code reaches break keyword rest of code inside loop will get skipped and execution will come exit the loop)
+
+continue  - can be used inside any loop and it skips current iteration (as soon as code reaches continue keyword rest of code inside loop will get skipped and execution will go back to beginning of for loop)
+
+break --> break the loop
+continue --> skips current iteration
+----------------------------------------------------------------

@@ -1,0 +1,124 @@
+----------------------------------------------------------------
+Recap
+----------------------------------------------------------------
+Switch case is one of the conditional statements that is used to 
+execute one block of code from multiple options.
+Can be used instead of multiple else if (with some limitations)
+----------------------------------------------------------------
+Limitations:
+1. No relational (>, >=, <, <=) or Logical Operators (&&, ||, !) can be used.
+2. Switch case works ONLY with byte, short, int, char and String.
+3. In switch we cannot have duplicate cases.
+4. In switch case we should use break.
+----------------------------------------------------------------
+Can we do this with switch? --> NO
+int num1 = 10;
+int num2 = 12;
+
+if (num1 > num2) {
+	System.out.println("Number 1 is larger");
+}
+----------------------------------------------------------------
+Which statement is true?
+1. Every switch can be written with else if. --> True
+2. Every else if can be written with switch. --> False
+----------------------------------------------------------------
+Class 7
+----------------------------------------------------------------
+Increment & decrement operators are used with variable 
+++ (increment/increase) or -- (decrement/decrease)   
+and this operators will be used with loops.
+m++ -->only by 1
+Loops in Java - execute a block of code multiple times.
+
+Loops:
+	while
+	do while
+	for
+	enhanced for loop / advanced for loop / for each loop
+
+System.out.println("Good Morning!");
+System.out.println("Good Morning!");
+System.out.println("Good Morning!");
+System.out.println("Good Morning!");
+System.out.println("Good Morning!");
+----------------------------------------------------------------
+int time = 10;
+
+//This code will execute one time
+if (time < 12) {
+	System.out.println("Good Morning!");
+}
+
+//This code will execute infinitely
+while (time < 12) {
+	System.out.println("Good Morning!");
+}
+// This code will stop when reaching 11.
+while (time > 12) {
+	System.out.println("Good Morning!");
+        time++;
+}
+----------------------------------------------------------------
+initialize the variable
+
+while (condition/check the variable){
+	block of code;
+	increment or decrement;
+}
+
+boolean isRain = true;
+
+if (isRain) {
+	System.out.println("Take your umbrella"); // 1 time
+}
+
+while (isRain) {
+	System.out.println("Take your umbrella"); // infinitely
+}
+
+while (!isRain) {
+	System.out.println("Take your umbrella");
+	//isRain++;
+}
+----------------------------------------------------------------
+do while vs while?
+
+1. [do while loop] first executes the code, then it checks/tests the condition.
+2. [while loop] first checks/tests the condition, then it executes the code.
+
+If I want my code to be executed at least once, I would prefer do while loop
+If I want to check and not execute even once, I would prefer while loop
+----------------------------------------------------------------
+While loop
+
+int a = 1; // 1. initialization
+while (a <= 3){ // 2. condition
+	//block of code
+	a++; // 3. increment
+}
+-------------------------------------------------------------------
+For loop
+
+//	initialization		condition 		increment
+for (int b = 1;			b <= 3;			b++) {
+	//block of code
+}
+------------------------------------------------------------------
+Do while loop
+
+int a = 1; // 1. initialization
+
+do{ 
+    2.//block of code 
+    3. increment
+}while (); 4.//condition
+
+----------------------------------------------------------------
+for loop vs while loop?
+When we do not know how many times we have to repeat block of code --> (we go with while of do-while loop)
+When you know how many times you want to repeat block of code --> (for loop is a best choice)
+----------------------------------------------------------------
+there is a red button on console to stop the running of while otherwise wiil appear blue screen
+-------------------------------------------------------------
+System.out.println();   -> print nothing

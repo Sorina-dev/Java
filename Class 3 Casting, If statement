@@ -1,0 +1,60 @@
+Practice a lot
+Check Canvas for Slides, Java Programs and Notes
+
+----------------------------------------------------------------
+Class 3
+----------------------------------------------------------------
+String
+String is a class that represents a group of characters.
+To create a string we have to put values inside "" (double quotes)
+
+String str1 = "Good morning";
+String str2 = "Good  morning";
+
+String str3; //declaring a variable
+str3 = "Hi there"; //assign a value or initialize a variable
+str3 = "Bye"; //re-assigning a value
+
+str3 = "I am " + "learning Java";
+
+str = 123; //compiler will give an error
+
+str = "" + 123;
+----------------------------------------------------------------
+Arithmetic Operators:
+ +,-,*,/,% --> applicable on numeric data types (byte,short,int,long,float,double)
+ + --> concatenation on String data types
+
+Compound Operators: (Shorthand Operators)
+ +=,-=,*=,/=,%=
+
+Comparison Operators: (Relational Equality Operators)
+ >,<,>=,<=,==,!=
+----------------------------------------------------------------
+ Casting in Java is a conversion of 1 type into another type
+
+ Primitive and non-primitive casting
+
+ byte -> short -> int -> long -> float -> double
+
+ 1. widening (implicit casting, automatically)
+ 	from a smaller data type to a larger data type
+
+ 2. narrowing (explicit casting, manually)
+ 	from a larger data type to a smaller data type
+
+// int i = 7.58; // compile time error -> Type mismatch: cannot convert from
+		// double to int --> int i = (int) 7.58; // needed manually
+
+----------------------------------------------------------------
+If statement works with boolean expression!!!
+
+if (boolean expression){
+	block of if code
+}
+----------------------------------------------------------------
+if (boolean expression){
+	block of if code
+} else {
+	block of else code
+}
