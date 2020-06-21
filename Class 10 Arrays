@@ -1,0 +1,35 @@
+----------------------------------------------------------------
+Class 10
+----------------------------------------------------------------
+Nested loops --> Loop inside another loop
+
+for (int i = 1; i <= 3; i++){
+	System.out.println("Next iteration of outer loop");
+
+	for (int j = 1; j <= 5; j++){
+		System.out.print(i + "." + j);
+	}
+	System.out.println();
+}
+---Output---
+Next iteration of outer loop
+1.1 1.2 1.3 1.4 1.5
+Next iteration of outer loop
+2.1 2.2 2.3 2.4 2.5
+Next iteration of outer loop
+3.1 3.2 3.3 3.4 3.5
+----------------------------------------------------------------
+What we learned so far:
+
+datatypes
+conditional statements: if, switch case
+loop statements: while, do while, for, enhanced for loop
+arrays
+----------------------------------------------------------------
+Arrays --> store multiple values with same datatype
+Values inside the array are called elements
+Elements are stored based on indexes (ALWAYS index starts with 0 (zero) )
+Elements can be stored/retrieved bu using index
+
+Arrays are FIXED size!
+
