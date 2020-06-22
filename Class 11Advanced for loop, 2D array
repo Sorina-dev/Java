@@ -1,0 +1,44 @@
+----------------------------------------------------------------
+Class 11
+----------------------------------------------------------------
+Arrays - A big container that stores multiple values of the same type
+Array is one of the data structures of Java
+Values inside the array are called elements
+The elements are store based on index (starting from 0)
+
+Arrays are fixed in size.
+----------------------------------------------------------------
+To retrieve all elements from an array we can use
+1. For loop
+2. Advanced/Enhanced for loop
+
+for (int i = 0; i < array.length; i++){
+	block of code (use array[i])
+}
+
+for (type variable : array) {
+	block of code (use variable)
+}
+----------------------------------------------------------------
+2D Array is an array of arrays
+Values inside 2D array stored based on rows and columns
+
+int[][] nums=new int[2][3];
+
+//Let's create a 2D array of months
+String[][] months = { 
+				{ "December", "January", "February" }, 
+				{ "March", "April", "May" },
+				{ "June", "July", "August" }, 
+				{ "September", "October", "November" } 
+            };
+
+// Let us print May
+System.out.println(months[1][2]);
+
+// How many rows?
+System.out.println(months.length);
+
+// How many columns in row with index 2
+System.out.println(months[2].length);
+----------------------------------------------------------------
