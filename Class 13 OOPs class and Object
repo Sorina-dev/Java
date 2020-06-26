@@ -1,0 +1,39 @@
+Class 13
+
+Java is OOP language
+
+Fundamentals of OOPs:
+
+Class and Object
+
+Class - it is the blue print/template
+
+Car: - is a class in which we define 
+feature/variables: 4 wheels, trunk, doors, engine, steering wheel, speed, airbag, make, model, year, color
+actions/behavior: drive, reverse, transport people 
+
+building first car
+car1.make="Tesla";
+car1.model="X";
+car1.year=2020;
+car1.doors=4;
+car1.speed=200;
+car1.color="red";
+???  car1.gas=3.5
+
+building 2 car
+car2.make="BMW";
+car2.model="M5";
+car2.year=2018;
+car2.color="blue";
+
+car1.drive();
+car1.reverse();
+car2.transport();
+
+SYNTAX of variables
+
+data type name = value
+  int     num  = 10
+
+  Car    car1 = new Car();
