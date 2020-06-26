@@ -6,7 +6,7 @@ public class ScannerIfElse {
 public static void main(String[] args) {
 	//windows= ctrl+shift+o -- appear the scanner import
 	Scanner scanner=new Scanner(System.in);
-	 //ask th euser to enter two numbers
+	 //ask the user to enter two numbers
 	//compare the numbers and print which one is larger
 	System.out.println("Please enter a number!");
 	int num1=scanner.nextInt();
