@@ -1,0 +1,22 @@
+Java Class 12
+
+DataTypes
+Casting
+Java flow control: 
+	conditional statements: if , switch case
+	loop statements: while, do while, for , for each loop/advanced or enhanced for loop
+
+Arrays
+
+Interview programming questions:
+
+1. Write a program to swap 2 numbers without a temporary variable? 
+
+int a=20;
+int b=30;
+
+2. Write a java program to check whether a given number is prime or not?
+
+3. Write a Java Program to print the first 10 numbers of Fibonacci series.
+
+4. Write a java program to find the second largest number in the array? Maximum and minimum number in the array?
