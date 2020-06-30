@@ -1,0 +1,33 @@
+Class 14
+
+Class will have:
+	feature defined using variables
+	behavior defined using methods
+
+public class Student {
+
+String name, lastName, school;
+char grade;//noun
+int studentId;
+
+	//verb
+	void study(){
+		SOPln("Student is studying");
+	}
+
+	void doHomework(){
+		SOPln("Student is doing hw");
+	}
+
+	public static void main(Sting [] args){
+		Student student=new Student();	
+		student.name="John";
+		student.lastName="Doe";
+		student.study();	
+	}
+}
+
+In java we have already defined classes:
+	String Class
+	System Class
+	Scanner
