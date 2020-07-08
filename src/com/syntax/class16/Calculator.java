@@ -1,6 +1,7 @@
 package com.syntax.class16;
 
 public class Calculator {
+	//related to CalculaterTest class
 
 	// add, sub, div, mult
 	//name of the method (parameters) 

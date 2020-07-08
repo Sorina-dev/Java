@@ -1,6 +1,7 @@
 package com.syntax.class16;
 
 public class TaskMethodsTest {
+	//related to TaskMethods class
 	public static void main(String[] args) {
 		
 		TaskMethods obj=new TaskMethods();

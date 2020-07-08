@@ -1,6 +1,7 @@
 package com.syntax.class13;
 
 public class CarFactory {
+	//related to Car class
 public static void main(String[] args) {
 	Car car1 = new Car();
 	car1.make = "Tesla";

@@ -1,6 +1,7 @@
 package com.syntax.class16;
 
 public class CalculatorTest {
+	//related to Calculator class
 public static void main(String[] args) {
 	//call method add();
 	

@@ -1,6 +1,7 @@
 package com.syntax.class16;
 
 public class DifferentMethods {
+	//related to Different MethodsTest class
 
 	//lets create method that says hello any number of times
 	

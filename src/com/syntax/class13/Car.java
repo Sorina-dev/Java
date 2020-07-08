@@ -1,6 +1,7 @@
 package com.syntax.class13;
 
 public class Car {
+	//related to CarFactory class
  // define car features
 	String make;
 	String model;
