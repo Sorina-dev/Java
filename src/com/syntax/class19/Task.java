@@ -5,7 +5,6 @@ package com.syntax.class19;
 public class Task {
 
 	
-	//3rd private static 
 	int[] array;
 	
 	protected static int sum(int[] array2) {
