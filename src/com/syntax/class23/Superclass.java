@@ -13,11 +13,11 @@ class SubClass extends Superclass {
 	String name="Mina";
 	
 	public void displayName() {
-		System.out.println(this.name);
-		System.out.println(super.name);
+		System.out.println(this.name); // the instance variable
+		System.out.println(super.name);// the instance from parent class 
 	}
 	
-	public void printHello() {
+	public void printHello() { //overrides from parent class method
 		System.out.println("Hello from child class");
 	}
 	
