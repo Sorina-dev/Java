@@ -6,7 +6,7 @@ public class WrapperDemo {
 		int num =10;
 		
 		Integer num1=100;//Autoboxing
-		String str=num1.toString().concat("hello");
+		String str=num1.toString().concat("hello"); // integer convert to String
 		System.out.println(str);
 		
 		int stringLenght=num1.toString().length();

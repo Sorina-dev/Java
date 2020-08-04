@@ -12,12 +12,12 @@ public class ArrayListDemo {
 		alist.add(300);//2
 		//alist.add("400"); we cannot store String Objects into ArrayList of Integer Objects
 		
-		System.out.println("Size of alist="+alist.size());
-		System.out.println(alist);
+		System.out.println("Size of alist="+alist.size()); // the number 
+		System.out.println(alist);  //print the array list with [,]
 		
-		alist.add(1);//3
+		alist.add(1);//3      its adding indexes futher more
 		alist.add(2);//4
-		alist.add(2);
+		alist.add(2); // it can be duplicated
 		alist.add(2);
 		alist.add(2);
 		

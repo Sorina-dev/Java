@@ -33,8 +33,8 @@ public static void main(String[] args) {
 		
 		System.out.println("size of arraylist after removing Object "+arrayList.size());
 		System.out.println(" ----------    Arraylist after removing Object "+arrayList);
-		//I want to update value "Good Bye" --> "Bye"
 		
+		//I want to update value "Good Bye" --> "Bye"
 		arrayList.set(2, "Bye");
 		System.out.println(" ----------    Arraylist after replacing Object "+arrayList);
 	}

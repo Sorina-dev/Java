@@ -11,12 +11,12 @@ public static void main(String[] args) {
 		
 		int[] arr=new int[2];
 		arr[0]=1;
-		arr[2]=3;
+		arr[2]=3;//Runtime error: out of bound
 		
 		System.out.println("Size of arr = "+arr.length);
 		System.out.println(arr[0]);
 
-		//can I add more value to the array later?
+		//can I add more value to the array later? no
 		//array= {100};
 		
 		//Array is a static data structure:
