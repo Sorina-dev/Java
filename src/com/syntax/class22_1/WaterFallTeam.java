@@ -1,6 +1,6 @@
 package com.syntax.class22_1;
 
-import com.syntax.class22.Employee;
+import com.class22.SuperKeyword.Employee;
 
 public class WaterFallTeam extends Employee{
 public void slowWork() {

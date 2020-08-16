@@ -1,7 +1,7 @@
 package com.syntax.class22_1;
 
-import com.syntax.class21.Cat;
-import com.syntax.class22.Employee;
+import com.class21.Inheritance.Cat;
+import com.class22.SuperKeyword.Employee;
 
 public class EmployeeTest {
 public static void main(String[] args) { //another program for Employee class in a different package

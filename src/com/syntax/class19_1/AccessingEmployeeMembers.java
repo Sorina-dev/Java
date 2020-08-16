@@ -1,6 +1,6 @@
 package com.syntax.class19_1;
 
-import com.syntax.class19.Employee; //have to import the class
+import com.class19.AccessModifiers.Employee;
 
 public class AccessingEmployeeMembers {
 	//related to Employee class from package class19
