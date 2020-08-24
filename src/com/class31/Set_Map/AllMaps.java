@@ -54,7 +54,7 @@ public class AllMaps {
 
 		// adding null keys and null values to the Hashmap
 		grocery.put(null, 0.99);// Hashmap can have at least 1 null key
-		grocery.put(null, null);// Hashmap can multiple null values
+		grocery.put(null, null);// Hashmap can have multiple null values
 
 		System.out.println(grocery);
 

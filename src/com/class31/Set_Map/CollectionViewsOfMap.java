@@ -19,7 +19,7 @@ public static void main(String[] args) {
 
 		System.out.println(grocery);
 		
-		double value=grocery.get("Milk");
+		double value=grocery.get("Milk");//get 1 value, knowing the key
 		System.out.println(value);
 		
 		//how to get all values
@@ -40,20 +40,21 @@ public static void main(String[] args) {
 		//how to get all keys
 		Set<String> keys=grocery.keySet(); // keys don't need to be duplicated --->Set
 		System.out.println(" --------     get all keys 1 by 1 using iterator ----------- ");
-		//I want to print key + pair together
+		
+		//I want to print keys  together
 		Iterator<String> keysIterator =keys.iterator();
 		while(keysIterator.hasNext()) {
 			System.out.println(keysIterator.next());
 		}
 		
-		System.out.println(" --------     get all keys 1 by 1 using loop ----------- ");
-		//I want to print key + pair together
+		System.out.println(" --------     get all keys 1 by 1 + values using loop ----------- ");
+		//I want to print key + value together
 		for(String key:keys) {
 			System.out.println(key+" ==== "+grocery.get(key));
 		}
 		//Write code to get key and a value pair using Iterator
 		// Look into EntrySet
-		System.out.println("--------     get key and a value pair using Iterator   ------------");
+		System.out.println("--------     get key and a value using Iterator   ------------");
 		Iterator<String> iter = keys.iterator();
 		while(iter.hasNext()) {
 			String key = iter.next();

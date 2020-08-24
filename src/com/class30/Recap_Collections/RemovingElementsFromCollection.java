@@ -21,7 +21,7 @@ public class RemovingElementsFromCollection {
 
 		System.out.println(" -------- Removing Objects from ArrayList using for loop -------- ");
 		for (int i = 0; i < cities.size(); i++) {
-			if (cities.get(i).equals("LA") || cities.get(i).equals("DC")) {  // don't do exactly or can be CE
+			if (cities.get(i).equals("LA") || cities.get(i).equals("DC")) {  // don't do exactly or can be CE, becauze its based on indexes
 				cities.remove(i);
 				System.out.println(cities);
 			}
