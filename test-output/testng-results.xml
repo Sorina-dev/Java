@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61" started-at="2020-08-28T04:54:20 EEST" finished-at="2020-08-28T04:54:20 EEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61" started-at="2020-08-28T04:54:20 EEST" finished-at="2020-08-28T04:54:20 EEST">
+      <class name="com.class35.Try_Catch_Finally.TestNG_Test">
+        <test-method status="PASS" signature="hello()[pri:0, instance:com.class35.Try_Catch_Finally.TestNG_Test@9660f4e]" name="hello" duration-ms="8" started-at="2020-08-28T04:54:20 EEST" finished-at="2020-08-28T04:54:20 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello -->
+      </class> <!-- com.class35.Try_Catch_Finally.TestNG_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -28,7 +28,7 @@ public class MapIntro {
 		System.out.println(isEmpty);
 		
 		//check if map has specific key or value?
-		boolean hasKey=hmap.containsKey(12);
+		boolean hasKey=hmap.containsKey(12);  
 		System.out.println("Map contains key object 12 ="+hasKey);
 		
 		boolean hasValue=hmap.containsValue("John");

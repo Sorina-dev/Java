@@ -20,7 +20,7 @@ public static void main(String[] args) {
 	Set<Integer> keys = map.keySet(); //for keys make it a Set
 	for(Integer key : keys) {
 		System.out.println(key);
-		System.out.println("Key is "+key+" and value is "+map.get(key));
+		System.out.println("Key is "+key+" and value is "+map.get(key)); //this get(); only when we know keys, otherwise is null
 	}
 	
 	Iterator<Integer> it = keys.iterator();

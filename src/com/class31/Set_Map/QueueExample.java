@@ -13,7 +13,7 @@ public class QueueExample {
 		queue.add(10);
 		
 		System.out.println(queue);
-		queue.remove();
+		queue.remove(); // removes only one first element;  FiFo--> first in first out
 		
 		System.out.println(queue);
 		

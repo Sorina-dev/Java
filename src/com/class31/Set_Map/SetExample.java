@@ -33,6 +33,7 @@ public class SetExample {
 		//how to access element from a Set collection?
 		//brand.get is not available to objects of Set Type
 		
+		
 		Iterator<String> iterator=brand.iterator();
 		String obj=iterator.next();
 		System.out.println(obj);

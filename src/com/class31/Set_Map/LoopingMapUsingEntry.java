@@ -10,7 +10,7 @@ public class LoopingMapUsingEntry {
 
 public static void main(String[] args) {
 	Map<String, Integer> classroomMap = new LinkedHashMap<>();
-	classroomMap.put("Table", 20); //Entry<Kay, Value>
+	classroomMap.put("Table", 20); //Entry<Key, Value>
 	classroomMap.put("Chair", 60);
 	classroomMap.put("Screen", 3);
 	classroomMap.put("Student", 60);
