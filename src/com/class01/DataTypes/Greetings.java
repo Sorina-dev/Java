@@ -10,6 +10,8 @@ public class Greetings {
 		System.out.println("How are you");
 		System.out.print("Today");
 		System.out.println(":)");
+		
+		System.out.println("I want to check if the NewBranch works");
 	}
 
 }
