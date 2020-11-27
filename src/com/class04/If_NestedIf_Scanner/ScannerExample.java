@@ -10,8 +10,8 @@ public class ScannerExample {
 		//ask the user to enter the age and print
 		//Your name is__ and age is ___
 		
-		//1. we bring thr scanner class into our program
-		//System.in -> read from keyboar/console
+		//1. we bring the scanner class into our program
+		//System.in --> read from keyboard/console
 		Scanner input = new Scanner(System.in);
 		
 		

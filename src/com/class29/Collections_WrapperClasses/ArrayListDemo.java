@@ -15,7 +15,7 @@ public class ArrayListDemo {
 		System.out.println("Size of alist="+alist.size()); // the number 
 		System.out.println(alist);  //print the array list with [,]
 		
-		alist.add(1);//3      its adding indexes futher more
+		alist.add(1);//3      its adding indexes further more
 		alist.add(2);//4
 		alist.add(2); // it can be duplicated
 		alist.add(2);

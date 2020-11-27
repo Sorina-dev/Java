@@ -15,7 +15,7 @@ public static void main(String[] args) {
 	map.put(4, "B");
 	map.put(5, "AA");
 	map.put(6, null);
-	map.put(null, "null");
+	map.put(null, null);
 	
 	Set<Integer> keys = map.keySet(); //for keys make it a Set
 	for(Integer key : keys) {

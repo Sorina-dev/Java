@@ -38,7 +38,7 @@ public class RemovingElementsFromCollection {
 //		}
 		System.out.println(cities);
 
-		System.out.println(" -------- Removing Objects from ArrayList using iterator -------- ");
+		System.out.println(" -------- Removing Objects from ArrayList using iterator -------- ");  // better use the iterator to remove 
 		cities.add("LA");
 		cities.add("LA");
 		cities.add("Miami");

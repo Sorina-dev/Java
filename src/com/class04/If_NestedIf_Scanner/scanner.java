@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class scanner {
   public static void main(String[] args) {
 	
-	Scanner scan = new Scanner(System.in);//means read somth from the console // write it first then click enter on the java.util.Scanner
+	Scanner scan = new Scanner(System.in); //means read something from the console // write it first then click enter on the java.util.Scanner
 	
 	System.out.println("please writee some code and press enter");
 	String text = scan.nextLine();  //  will read one line from the console  ////memorize

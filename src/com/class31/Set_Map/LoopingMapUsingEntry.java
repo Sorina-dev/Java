@@ -23,6 +23,11 @@ public static void main(String[] args) {
 		System.out.println(entry.getKey()+":"+entry.getValue());
 	}
 	
+	System.out.println("-------writing Map.Entry and its generic to get all entry objects.------");
+	for(Map.Entry<String,Integer> obj:classroomMap.entrySet()) {
+		System.out.println(obj.getKey() + ":" + obj.getValue());
+	}
+	
 	System.out.println("-------using iterator to get all entry onjects------");
 	
 	Iterator<Entry<String, Integer>>entryIterator = entrySet.iterator();

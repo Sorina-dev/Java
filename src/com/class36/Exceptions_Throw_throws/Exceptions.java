@@ -14,7 +14,7 @@ public class Exceptions {
 
         File file = new File("C:\\Users\\Asghar Nazir\\IdeaProjects\\JavaReviewBatch7review\\Book1.xlsx");
 
-//here are still chanses the code will show exception with using if else statement these are the checked exceptions shown by compiler
+//here are still chances the code will show exception with using if else statement these are the checked exceptions shown by compiler
         try {
             if (file.exists()) {
                 FileInputStream fileInputStream = new FileInputStream(file);
@@ -36,7 +36,7 @@ public class Exceptions {
         }
 
 
-        System.out.println("Adding two numbers" + 10 + 5);
+        System.out.println("Adding two numbers" + 10 + 5);//starting with a string --> Adding two numbers105
         System.out.println("Last line ");
         System.out.println("1000");
 

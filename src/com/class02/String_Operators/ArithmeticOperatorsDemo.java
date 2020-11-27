@@ -34,7 +34,7 @@ public class ArithmeticOperatorsDemo {
 		System.out.println("addition->" + num1 + num2);
 		
 		//order of operation
-		System.out.println("Ahmet" + 10 +30);//concatenetion
+		System.out.println("Ahmet" + 10 +30);//concatenetion, cuz its started with a string
 		System.out.println("Ahmet" + (10 +30));//brakes then result
 		System.out.println("Ahmet_" + 10 *30);// multiplication then result
 		

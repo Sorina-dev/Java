@@ -34,13 +34,13 @@ public class Recap {
 		System.out.println();
 		System.out.println(" ----- I want to retrieve elements backwards ------ ");
 		System.out.println(numbers.size());
-		for (int i = numbers.size() - 1; i >= 0; i--) {//it will starts from the 1 element and and with 0 element
+		for (int i = numbers.size() - 1; i >= 0; i--) {//it will starts from the 1 element and with 0 element
 			Double myNum = numbers.get(i);
 			System.out.print(myNum + " ");
 		}
 
 		System.out.println();
-		System.out.println(" ---- Gertting all values using iterator ------ ");
+		System.out.println(" ---- Getting all values using iterator ------ ");
 
 		Iterator<Double> it = numbers.iterator();
 		// next(); --> gets next Object

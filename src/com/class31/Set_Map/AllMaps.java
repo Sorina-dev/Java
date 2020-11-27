@@ -1,6 +1,5 @@
 package com.class31.Set_Map;
 
-
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.LinkedHashMap;
@@ -10,11 +9,20 @@ import java.util.TreeMap;
 public class AllMaps {
 	public static void main(String[] args) {
 
+		/**NO duplicate keys
+		 * 
+		 * HashMap = no order, 1 null key, many null values, non thread-safe
+		 * LinkedHashMap = insertion order, 1 null key, many null values, non-
+		 * thread-safe TreeMap = alphabetical or ascending order,no null key, 1 null
+		 * value, non- thread-safe HashTable = no order, no null keys, no null values,
+		 * thread-safe
+		 */
+
 		// create a map of grocery that will hold item: price
 
 		// HashMap DOES NOT preserve insertion order of keys
 		Map<String, Double> grocery = new HashMap<>();
-		grocery.put("Apple", null);
+		grocery.put("Apple", null); // 1 null value
 		grocery.put("Milk", 4.99);
 		grocery.put("Ice Cream", 2.99);
 		grocery.put("Eggs", 4.99);
@@ -25,7 +33,7 @@ public class AllMaps {
 
 		// LinkedHashMap preserve insertion order of keys
 		Map<String, Double> mall = new LinkedHashMap<>();
-		mall.put("Colone", 99.99);
+		mall.put("Colone", null); // 1 null value
 		mall.put("T-Shirt", 15.99);
 		mall.put("Shoes", 99.99);
 		mall.put("Soap", 1.99);
@@ -37,8 +45,8 @@ public class AllMaps {
 		Map<String, Double> shoppingList = new TreeMap<>();
 		shoppingList.putAll(grocery);
 		shoppingList.putAll(mall);
-		shoppingList.put("Computer", null);
-		//shoppingList.put(null, 10.99); inside TreeMap we cannot have null keys
+		shoppingList.put("Computer", null); // 1 null value
+		// shoppingList.put(null, 10.99); inside TreeMap we cannot have null keys
 
 		System.out.println(shoppingList);
 

@@ -43,7 +43,7 @@ public class LinkedListDemo {
 		System.out.println();
 		System.out.println("LinkedList after Iterator ="+food);
 		
-		//lets create list list with Country type of objects
+		//lets create list with Country type of objects
 		LinkedList<Country> countries=new LinkedList<>();
 		countries.add(new USA("USA"));
 		countries.add(new Kazakhstan("Kazakhstan"));

@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class DataFromExcelIntoMap {
@@ -18,7 +17,7 @@ public static void main(String[] args) throws IOException {
 		
 		FileInputStream fis=new FileInputStream(xlFilePath);
 		//create an Object of Workboook
-		Workbook book=new XSSFWorkbook(fis);
+		XSSFWorkbook book=new XSSFWorkbook(fis);
 		Sheet sheet=book.getSheet("Sheet1");
 		//Get number of rows and cols
 		int rows=sheet.getPhysicalNumberOfRows();
